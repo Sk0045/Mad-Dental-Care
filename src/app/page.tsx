@@ -68,7 +68,7 @@ export default function Home(): ReactElement {
           <img
             src={featuredProduct.image}
             alt={featuredProduct.name}
-            className="w-full md:w-1/2 h-[300px] md:h-[450px] object-cover rounded-3xl shadow-xl"
+            className="w-full md:w-1/2 h-75 md:h-112.5 object-cover rounded-3xl shadow-xl"
           />
 
           <div className="md:w-1/2 text-center md:text-left">
@@ -103,12 +103,12 @@ export default function Home(): ReactElement {
           <img
             src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5"
             alt="Before"
-            className="rounded-2xl shadow-lg h-[300px] w-full object-cover"
+            className="rounded-2xl shadow-lg h-75 w-full object-cover"
           />
           <img
             src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db"
             alt="After"
-            className="rounded-2xl shadow-lg h-[300px] w-full object-cover"
+            className="rounded-2xl shadow-lg h-75 w-full object-cover"
           />
         </div>
       </section>
@@ -123,7 +123,7 @@ export default function Home(): ReactElement {
           {["6poXJc4rU8U", "yeMebt7ATus", "6poXJc4rU8U"].map((id, i) => (
             <div
               key={i}
-              className="relative w-full h-[220px] md:h-[250px] overflow-hidden rounded-2xl shadow-lg"
+              className="relative w-full h-55 md:h-62.5 overflow-hidden rounded-2xl shadow-lg"
             >
               <iframe
                 className="absolute inset-0 w-full h-full"
@@ -196,7 +196,7 @@ export default function Home(): ReactElement {
               key={i}
               src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d"
               alt="Smile"
-              className="rounded-xl h-[150px] md:h-[200px] w-full object-cover"
+              className="rounded-xl h-37.5 md:h-50 w-full object-cover"
             />
           ))}
         </div>
